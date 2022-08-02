@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "Teste";
+  src: url(../public/Font.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Teste";
+}
+
+a {
+  text-decoration: none;
 }

@@ -26,19 +26,16 @@ nav {
         gap: 45px;
         z-index: 1;
         align-items: center;
+
+        a {
+            color: black;
+        }
     }
 }
-
 
 .nav-toggle {
     display: none;
     z-index: 3;
-}
-
-@media (max-width: 1450px) {
-    nav {
-        padding: 0 60px;
-    }
 }
 
 @media (max-width: 850px) {
@@ -64,6 +61,10 @@ nav {
             transform: translateY(-10px);
             font-weight: 500;
         }
+    }
+
+    .contact {
+        display: none;
     }
 
     .nav-items.open {
