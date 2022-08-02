@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Navbar/stylesss.scss"
+import "../Navbar/styles.scss"
 
 import Logo from "../../public/OnedioLogo.svg"
 

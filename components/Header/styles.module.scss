@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+
+    .left {
+        width: 50vw;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 450px;
+        grid-template-areas:
+            "01 CT"
+            "IM IM";
+
+        .number {
+            font-size: 18px;
+            grid-area: 01;
+            display: grid;
+            align-content: end;
+            padding: 0 0 15px 120px;
+            border-right: 1px solid rgb(206, 206, 206);
+        }
+
+        .recording {
+            font-size: 18px;
+            grid-area: CT;
+            display: grid;
+            align-content: end;
+            padding: 0 0 15px 20px;
+        }
+
+        :nth-of-type(3) {
+            grid-area: IM;
+            background-color: green;
+            overflow: hidden;
+
+            img {
+                width: 50vw;
+                height: 450px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .right {
+        width: 50vw;
+        background-color: rgb(177, 177, 177);
+    }
+}
