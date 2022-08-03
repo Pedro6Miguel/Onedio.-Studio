@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import HeaderImg from '../../public/Teste.png'
+import Ellipse from '../../public/Ellipse.svg'
 
 export default function Header() {
     return (
@@ -12,7 +13,16 @@ export default function Header() {
             </div>
 
             <div className={styles.right}>
-                Lets go world
+                <span></span>
+                <div>
+                    <h1>Best Music<br></br>Recording<br></br>Studio Services.</h1>
+                    <ul>
+                        <li><img src={Ellipse} alt="" /> Free of operating costs and distribution costs</li>
+                        <li><img src={Ellipse} alt="" /> Unlimited recording take for couple weeks</li>
+                        <li><img src={Ellipse} alt="" /> Free of operating costs and distribution costs</li>
+                    </ul>
+                    <button>Learn more</button>
+                </div>
             </div>
         </main>
     )

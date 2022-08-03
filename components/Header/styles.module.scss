@@ -1,12 +1,13 @@
 .container {
     display: flex;
+    gap: 60px;
 
     .left {
         width: 50vw;
         background-color: rgb(255, 255, 255);
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 200px 450px;
+        grid-template-rows: 160px 450px;
         grid-template-areas:
             "01 CT"
             "IM IM";
@@ -43,6 +44,33 @@
 
     .right {
         width: 50vw;
-        background-color: rgb(177, 177, 177);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 160px 450px;
+        grid-template-areas:
+            "WS WS"
+            "ST ST";
+
+        span:nth-child(1) {
+            grid-area: WS;
+        }
+
+        div {
+            grid-area: ST;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            h1 {
+                width: 50vw;
+            }
+
+            ul {
+
+                li {
+                    padding: 8px 0;
+                }
+            }
+        }
     }
 }
