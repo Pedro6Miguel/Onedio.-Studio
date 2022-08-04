@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 18px;
+}
+
 h1 {
   line-height: 65px;
   font-size: 68px;
@@ -25,7 +29,7 @@ h1 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 46px;
 }
 
 li {
@@ -33,6 +37,7 @@ li {
   align-items: center;
   gap: 10px;
   list-style: none;
+  font-size: 18px;
 }
 
 button {

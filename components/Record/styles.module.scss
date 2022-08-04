@@ -1,21 +1,19 @@
 .content {
     display: grid;
     grid-template-columns: 0.8fr 1.8fr;
-    grid-gap: 40px;
-    background-color: lightcoral;
+    grid-gap: 30px;
     padding: 0 120px;
 
     .left {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-left: 1px solid black;
+        border-left: 1px solid rgb(206, 206, 206);
         padding: 60px 20px;
 
     }
 
     .right {
-        background-color: lightseagreen;
         display: flex;
         flex-direction: column;
         justify-content: center;
