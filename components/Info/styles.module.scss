@@ -2,7 +2,6 @@
     display: flex;
 
     .left {
-        width: 50vw;
         padding: 60px 60px 60px 120px;
         border-right: 1px solid rgb(206, 206, 206);
 
@@ -13,8 +12,6 @@
     }
 
     .right {
-        width: 50vw;
-        height: 200px;
         padding: 60px 120px 60px 60px;
 
         h3 {
