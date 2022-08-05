@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    padding: 60px 120px 60px 120px;
+
+    .left {
+        background-color: lightseagreen;
+        width: 100%;
+        border-left: 2px solid red;
+        padding: 60px 20px 60px 40px;
+    }
+
+    .right {
+        background-color: lightslategray;
+        width: 100%;
+        border-right: 2px solid red;
+        padding: 60px 40px 60px 20px;
+    }
+}
