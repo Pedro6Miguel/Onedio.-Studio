@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './styles.module.scss'
+import { AiOutlineTwitter, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 
 export default function Contact() {
     return (
@@ -8,13 +9,24 @@ export default function Contact() {
                 <h3>Get in touch.</h3>
                 <p>Libero volutpat mi euismod tellus etiam ac egestas odio. Molestie nibh turps tincidutie nibh turps tincidutie nibh turps tincidutie nibh turps tincidunt.</p>
                 <div>
-                    <a href="#">Insta</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Youtube</a>
+                    <a href="#"><AiOutlineTwitter size={30} color={"#262626"} /></a>
+                    <a href="#"><AiFillInstagram size={30} color={"#262626"} /></a>
+                    <a href="#"><AiFillYoutube size={30} color={"#262626"} /></a>
                 </div>
             </div>
             <div className={styles.right}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque numquam rem natus repudiandae suscipit nostrum, ratione enim fuga, sequi et a reprehenderit aspernatur maiores asperiores corporis, impedit quae ipsam!</p>
+                <div className={styles.first}>
+                    <input type="text" placeholder='Name' />
+                    <input type="text" placeholder='Email' />
+                </div>
+                <textarea type="text" placeholder='Message' />
+                <div className={styles.second}>
+                    <div>
+                        <input type="radio" />
+                        <p>I accept this for my future newsletter and be yours for ever and ever</p>
+                    </div>
+                    <button>Send</button>
+                </div>
             </div>
         </div>
     )
