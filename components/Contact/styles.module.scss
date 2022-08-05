@@ -1,18 +1,18 @@
 .container {
     display: flex;
-    padding: 60px 120px 60px 120px;
 
     .left {
-        background-color: lightseagreen;
-        width: 100%;
-        border-left: 2px solid red;
+        background-color: rgb(255, 189, 189);
+        width: 30%;
+        margin-left: 120px;
+        border-left: 1px solid rgb(206, 206, 206);
         padding: 60px 20px 60px 40px;
     }
 
     .right {
-        background-color: lightslategray;
-        width: 100%;
-        border-right: 2px solid red;
+        width: 70%;
+        margin-right: 120px;
+        border-right: 1px solid rgb(206, 206, 206);
         padding: 60px 40px 60px 20px;
     }
 }
