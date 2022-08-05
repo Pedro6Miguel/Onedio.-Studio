@@ -5,6 +5,7 @@ import Record from "../components/Record/index"
 import MusicPlayer from "../components/MusicPlayer/index"
 import Lyrics from "../components/Lyrics/index"
 import Info from "../components/Info/index"
+import Location from "../components/Location/index"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <MusicPlayer />
       <Lyrics />
       <Info />
+      <Location />
     </div>
   )
 }
