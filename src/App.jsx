@@ -7,6 +7,7 @@ import Lyrics from "../components/Lyrics/index"
 import Info from "../components/Info/index"
 import Location from "../components/Location/index"
 import Contact from "../components/Contact/index"
+import Footer from "../components/Footer/index"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Info />
       <Location />
       <Contact />
+      <Footer />
     </div>
   )
 }

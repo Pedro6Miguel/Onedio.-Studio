@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: row;
+
+    .teste {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 80px;
+    }
+
+    .vamos {
+        width: calc(100% - 120px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-left: 1px solid rgb(206, 206, 206);
+        padding: 0 120px 0 40px;
+
+        img {}
+
+        div {
+            display: flex;
+            gap: 45px;
+        }
+
+        p {
+            color: #A3A3A3;
+            font-size: 13px;
+        }
+    }
+}
