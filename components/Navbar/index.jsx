@@ -17,7 +17,7 @@ const Navbar = () => {
                 <a href="">Features</a>
             </div>
 
-            <div className='contact'>Contact</div>
+            <div><button className="primary">Contact</button></div>
 
             <div
                 className={`nav-toggle ${isOpen && "open"}`}

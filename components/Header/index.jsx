@@ -21,7 +21,7 @@ export default function Header() {
                         <li><img src={Ellipse} alt="" /> Unlimited recording take for couple weeks</li>
                         <li><img src={Ellipse} alt="" /> Free of operating costs and distribution costs</li>
                     </ul>
-                    <button>Learn more</button>
+                    <button className='secondary'>Learn more</button>
                 </div>
             </div>
         </main>

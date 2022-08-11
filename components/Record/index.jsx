@@ -9,7 +9,7 @@ export default function Record() {
             </div>
             <div className={styles.right}>
                 <p>Massa, aliquam odio amet eget mollis pellentesque. Tellus mi diam rhoncus facilisis sed. Eus facilisi nulla pellentesquetus. Fames mauris amet nunc, mauris, porttitor duis venenatis. Posuere dictum elit, dictum purus.</p>
-                <button>Read more</button>
+                <button className='secondary'>Read more</button>
             </div>
         </div>
     )

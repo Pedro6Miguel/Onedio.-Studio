@@ -25,7 +25,7 @@ export default function Contact() {
                         <input type="radio" />
                         <p>I accept this for my future newsletter and be yours for ever and ever</p>
                     </div>
-                    <button>Send</button>
+                    <button className='secondary'>Send</button>
                 </div>
             </div>
         </div>
