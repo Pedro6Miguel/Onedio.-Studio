@@ -7,7 +7,7 @@ import Logo from "../../public/OnedioLogo.svg"
 export default function Footer() {
     return (
         <div className={styles.container}>
-            <div className={styles.teste}>
+            <div className={styles.icon}>
                 <img src={FooterLogo} alt="" />
             </div>
 
