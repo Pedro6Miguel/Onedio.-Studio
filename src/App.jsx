@@ -14,13 +14,15 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
-      <Record />
-      <MusicPlayer />
-      <Lyrics />
-      <Info />
-      <Location />
-      <Contact />
+      <div className="Wide">
+        <Header />
+        <Record />
+        <MusicPlayer />
+        <Lyrics />
+        <Info />
+        <Location />
+        <Contact />
+      </div>
       <Footer />
     </div>
   )

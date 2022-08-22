@@ -3,8 +3,8 @@
   src: url(../public/Font.ttf);
 }
 
-.App {
-  max-width: 2000px;
+.Wide {
+  max-width: 2800px;
   margin: 0 auto;
 }
 
