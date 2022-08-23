@@ -15,7 +15,7 @@ export default function Header() {
             <div className={styles.right}>
                 <span></span>
                 <div>
-                    <h1>Best Music<br></br>Recording<br></br>Studio Services.</h1>
+                    <h1>Best Music<br></br>Recording<br></br>Studio Services</h1>
                     <ul>
                         <li><img src={Ellipse} alt="" /> Free of operating costs and distribution costs</li>
                         <li><img src={Ellipse} alt="" /> Unlimited recording take for couple weeks</li>
