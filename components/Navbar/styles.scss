@@ -1,7 +1,6 @@
 nav {
-    padding: 0 80px;
+    margin: 0 80px;
     height: 85px;
-    justify-content: space-between;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +36,12 @@ nav {
 .nav-toggle {
     display: none;
     z-index: 3;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        margin: 0 40px;
+    }
 }
 
 @media (max-width: 850px) {
