@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <span className='nav-logo'><img src={Logo} alt="" /></span>
+            <div><span className='nav-logo'><img src={Logo} alt="" /></span></div>
 
             <div className={`nav-items ${isOpen && "open"}`}>
                 <a href="">Home</a>
