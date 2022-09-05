@@ -135,3 +135,21 @@
         }
     }
 }
+
+@media (max-width: 442px) {
+    .container {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 412px) {
+    .container {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 389px) {
+    .container {
+        margin-bottom: 120px;
+    }
+}

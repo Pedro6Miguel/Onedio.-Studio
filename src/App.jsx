@@ -16,12 +16,12 @@ function App() {
       <div className="Wide">
         <Header />
         <Record />
-        <Lyrics />
+        {/*<Lyrics />
         <Info />
         <Location />
-        <Contact />
+        <Contact />*/}
       </div>
-      <Footer /> 
+      {/*<Footer /> */}
 
     </div>
   )
