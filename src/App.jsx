@@ -16,8 +16,8 @@ function App() {
       <div className="Wide">
         <Header />
         <Record />
-        {/*<Lyrics />
-        <Info />
+        <Lyrics />
+        {/*<Info />
         <Location />
         <Contact />*/}
       </div>

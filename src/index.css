@@ -77,4 +77,8 @@ button {
   h3 {
     font-size: 38px;
   }
+
+  h6 {
+    font-size: 20px !important;
+  }
 }
