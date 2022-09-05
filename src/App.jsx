@@ -17,8 +17,8 @@ function App() {
         <Header />
         <Record />
         <Lyrics />
-        {/*<Info />
-        <Location />
+        <Info />
+        {/*<Location />
         <Contact />*/}
       </div>
       {/*<Footer /> */}

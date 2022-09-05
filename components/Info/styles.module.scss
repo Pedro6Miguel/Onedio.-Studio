@@ -1,5 +1,6 @@
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
 
     .left {
         padding: 60px 60px 60px 80px;
@@ -8,6 +9,10 @@
         p {
             padding: 20px 0 45px 0;
             color: #525252;
+        }
+
+        img {
+            width: 35vw;
         }
     }
 
@@ -20,6 +25,40 @@
 
         p {
             color: #525252;
+        }
+
+        img {
+            width: 35vw;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .left {
+            padding: 60px 40px 10px 40px;
+            border: 0 !important;
+
+            h3 {
+                margin: 0 0 20px 0;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .right {
+            padding: 0 40px 60px 40px;
+            border: 0 !important;
+
+            img {
+                width: 100%;
+            }
         }
     }
 }
