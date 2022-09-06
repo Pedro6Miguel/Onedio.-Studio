@@ -18,8 +18,8 @@ function App() {
         <Record />
         <Lyrics />
         <Info />
-        {/*<Location />
-        <Contact />*/}
+        {/*<Location />*/}
+        <Contact />
       </div>
       {/*<Footer /> */}
 
