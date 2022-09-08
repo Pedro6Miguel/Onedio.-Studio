@@ -11,7 +11,7 @@ export default function Footer() {
                 <img src={FooterLogo} alt="" />
             </div>
 
-            <div className={styles.vamos}>
+            <div className={styles.content}>
                 <img className={styles.logo} src={Logo} alt="" />
                 <div>
                     <a href="">Home</a>

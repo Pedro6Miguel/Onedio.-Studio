@@ -1,25 +1,23 @@
 .container {
     display: flex;
     flex-direction: row;
+    height: 80px;
 
     .icon {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 120px;
-        height: 80px;
+        width: 80px;
     }
 
-    .vamos {
-        width: calc(100% - 120px);
+    .content {
+        width: calc(100% - 80px);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         border-left: 1px solid rgb(206, 206, 206);
-        padding: 0 120px 0 40px;
-
-        img {}
+        padding: 0 60px 0 40px;
 
         div {
             display: flex;
@@ -29,6 +27,26 @@
         p {
             color: #A3A3A3;
             font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .icon {
+        display: none !important;
+    }
+
+    .content {
+        width: 100vw !important;
+        padding: 0 40px 0 40px !important;
+        border-left: 0 !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .content {
+        div {
+            display: none !important;
         }
     }
 }
