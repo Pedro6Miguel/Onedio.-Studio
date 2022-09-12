@@ -18,7 +18,7 @@ function App() {
         <Record />
         <Lyrics />
         <Info />
-        {/*<Location />*/}
+        <Location />
         <Contact />
       </div>
       <Footer />

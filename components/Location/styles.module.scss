@@ -17,13 +17,26 @@
     }
 
     .right {
-        background-color: lightgreen;
         width: 60%;
 
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 0 40px 80px 40px;
+
+        .left {
+            width: 100%;
+        }
+
+        .right {
+            display: none;
         }
     }
 }

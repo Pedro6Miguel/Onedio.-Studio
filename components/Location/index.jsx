@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.scss'
-import Map from '../../public/Map.jpg'
+import Map from '../../public/Map2.jpg'
 
 export default function Location() {
     return (
