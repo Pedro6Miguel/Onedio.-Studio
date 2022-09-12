@@ -55,6 +55,7 @@ button {
   border-radius: 0;
   font-size: 16px;
   cursor: pointer;
+  transition: .2s;
 }
 
 .primary {
@@ -63,9 +64,21 @@ button {
   border: 1px solid #262626;
 }
 
+.primary:hover {
+  background-color: #fff;
+  color: #262626;
+  border: 1px solid #262626;
+}
+
 .secondary {
   background-color: #fff;
   color: #262626;
+  border: 1px solid #262626;
+}
+
+.secondary:hover {
+  background-color: #262626;
+  color: #fff;
   border: 1px solid #262626;
 }
 

@@ -60,12 +60,14 @@ nav {
         font-size: 30px;
 
         a {
-            transition: all .3s;
+            transition: all .6s;
+            font-size: 60px !important;
+            font-weight: 400;
+            letter-spacing: 2px;
         }
 
         a:hover {
-            transform: translateY(-10px);
-            font-weight: 500;
+            transform: translateY(-13px);
         }
     }
 
