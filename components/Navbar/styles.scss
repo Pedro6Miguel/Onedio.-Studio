@@ -6,6 +6,21 @@ nav {
     align-items: center;
     background-color: #ffffff;
 
+    a:hover {
+        animation: flip .6s linear;
+        font-weight: 900;
+    }
+
+    @keyframes flip {
+        0% {
+            transform: rotateX(360deg);
+        }
+
+        to {
+            transform: rotateX(0deg);
+        }
+    }
+
     .button {
         border-radius: 5px;
         padding: 15px 21px;
@@ -68,7 +83,10 @@ nav {
 
         a:hover {
             transform: translateY(-13px);
+            animation: 0 !important;
+            font-weight: 100;
         }
+
     }
 
     .primary {
