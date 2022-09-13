@@ -8,6 +8,11 @@
   margin: 0 auto;
 }
 
+::selection {
+  background-color: #003049;
+  color: #f7a248;
+}
+
 * {
   padding: 0;
   margin: 0;
