@@ -3,6 +3,22 @@
   src: url(../public/Font.ttf);
 }
 
+.vamuzz {
+  width: 100vw;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  background-color: #262626;
+}
+
 .Wide {
   max-width: 2800px;
   margin: 0 auto;
@@ -26,7 +42,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #262626;
   font-size: 18px;
 }
 
